@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>Library File operations</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        Name : <input type="text" name="book_name"><br><br>
+        Author : <input type="text" name="book_author"><br><br>
+        Quantity : <input type="number" name="book_quantity"><br><br>
+        Price : <input type="number" name="book_price"><br><br>
+        Is_Published :  <br>
+        <input type="radio" name="book_is_published">Yes<br>
+        <input type="radio" name="book_is_published">No<br><br>
+        <input type="submit">
+    </form>
+
+</body>

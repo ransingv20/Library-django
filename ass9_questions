@@ -1,0 +1,7 @@
+# Assignement:- 9th   -- 
+# book csv export
+# excel -- active books sheet- active books, inactive sheet-inactive books, 
+# raw queries - using objects.raw  (select * from books;) -- csv me dalna
+# read text file and show its content on UI using view
+# download sample csv file
+# validations - duplicate book not allowed
